@@ -5,11 +5,17 @@ This code was designed to be able to pick particles correctly in the following c
 
 Some quick and dirty explanation of the picture below requires a little bit of physics:
 gluons (g) : particles of the strong force that binds protons together in atoms, and binds quarks together to form protons.  Ever thought it was strange that protons stuck together despite having the same electric charge?  These particles are the culprit.
+
 quarks (q): particles that make up protons and neutrons.  The q's in the picture can only be u,d,s,c, or b quarks (not t).
+
 top quark (t): the heaviest of the 6 quarks by quite a margin
+
 higgs boson (H): particle exicitation of the field that gives particles their mass (go to wikipedia if you need more than that - this bit of physics is more complicated than I can do in a simple explanation here). 
+
 W boson (W): carrier of the weak force, which mediates radioactive decay.
+
 leptons (l): a class of charged particles that includes electrons, muons, and taus.
+
 neutrinos (nu symbol): ghostly particles that barely interact at all that are produced in Weak interactions such as radioactive decay and nuclear fission (fun fact - a neutrino beam can be used to neutralise nuclear bombs).
 
 So we read this picture from left to right:  2 gluons (from the colliding protons) split into top quarks, two of which fuse to produce a higgs boson, which decays to 2 W bosons, one decaying to quarks and one decaying to a lepton and a corresponding neutrino.  The other top quarks on the periphery decay to a W boson + quark, and the W's decay to 2 quarks and a lepton + neutrino.
