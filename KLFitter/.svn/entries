@@ -1,0 +1,83 @@
+10
+
+dir
+331525
+svn+ssh://athompso@svn.cern.ch/reps/atlasinst/Institutes/Goettingen/KLFitter/trunk
+svn+ssh://athompso@svn.cern.ch/reps/atlasinst
+
+
+
+2013-04-03T15:13:03.622970Z
+321735
+adomeit
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+28d52da6-859c-4cdc-abcc-1ec3d2c02001
+
+cmt
+dir
+
+library
+dir
+
+doc
+dir
+
+extras
+dir
+
+obj
+dir
+
+transferfunctions
+dir
+
+Makefile
+file
+
+
+
+
+2013-07-02T19:34:53.000000Z
+d7403ca490648ba85913aaf65325f69e
+2011-04-19T15:57:46.003989Z
+114716
+jerdmann
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+744
+
+examples
+dir
+

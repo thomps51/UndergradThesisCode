@@ -1,0 +1,11 @@
+K 10
+svn:ignore
+V 53
+runKLFitter.exe
+*.root
+*.so
+*.dylib
+loader_C.*
+*dSYM
+
+END

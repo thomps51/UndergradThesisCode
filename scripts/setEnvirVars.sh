@@ -1,0 +1,3 @@
+export BATINSTALLDIR=/home/atlas/thomps51/ttH/Test2
+export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:$BATINSTALLDIR/lib
+export CPATH=$CPATH:$BATINSTALLDIR/include

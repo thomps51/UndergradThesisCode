@@ -1,0 +1,108 @@
+{
+//=========Macro generated from canvas: /
+//=========  (Fri Aug 16 11:00:55 2013) by ROOT version5.34/07
+   TCanvas * = new TCanvas("", "",0,0,900,900);
+   c1->Range(-25,-6.16875,225,55.51875);
+   c1->SetFillColor(0);
+   c1->SetBorderMode(0);
+   c1->SetBorderSize(2);
+   c1->SetFrameBorderMode(0);
+   c1->SetFrameBorderMode(0);
+   
+   TH1F *M_H_W_jj = new TH1F("M_H_W_jj","M_H_W_jj",50,0,200);
+   M_H_W_jj->SetBinContent(4,1);
+   M_H_W_jj->SetBinContent(5,3);
+   M_H_W_jj->SetBinContent(6,13);
+   M_H_W_jj->SetBinContent(7,21);
+   M_H_W_jj->SetBinContent(8,29);
+   M_H_W_jj->SetBinContent(9,35);
+   M_H_W_jj->SetBinContent(10,47);
+   M_H_W_jj->SetBinContent(11,47);
+   M_H_W_jj->SetBinContent(12,43);
+   M_H_W_jj->SetBinContent(13,39);
+   M_H_W_jj->SetBinContent(14,36);
+   M_H_W_jj->SetBinContent(15,37);
+   M_H_W_jj->SetBinContent(16,29);
+   M_H_W_jj->SetBinContent(17,28);
+   M_H_W_jj->SetBinContent(18,28);
+   M_H_W_jj->SetBinContent(19,19);
+   M_H_W_jj->SetBinContent(20,10);
+   M_H_W_jj->SetBinContent(21,11);
+   M_H_W_jj->SetBinContent(22,7);
+   M_H_W_jj->SetBinContent(23,5);
+   M_H_W_jj->SetBinContent(24,7);
+   M_H_W_jj->SetBinContent(25,14);
+   M_H_W_jj->SetBinContent(26,11);
+   M_H_W_jj->SetBinContent(27,11);
+   M_H_W_jj->SetBinContent(28,1);
+   M_H_W_jj->SetBinContent(29,8);
+   M_H_W_jj->SetBinContent(30,14);
+   M_H_W_jj->SetBinContent(31,8);
+   M_H_W_jj->SetBinContent(32,4);
+   M_H_W_jj->SetBinContent(33,7);
+   M_H_W_jj->SetBinContent(34,7);
+   M_H_W_jj->SetBinContent(35,7);
+   M_H_W_jj->SetBinContent(36,4);
+   M_H_W_jj->SetBinContent(37,5);
+   M_H_W_jj->SetBinContent(38,3);
+   M_H_W_jj->SetBinContent(39,5);
+   M_H_W_jj->SetBinContent(40,5);
+   M_H_W_jj->SetBinContent(41,5);
+   M_H_W_jj->SetBinContent(42,2);
+   M_H_W_jj->SetBinContent(43,7);
+   M_H_W_jj->SetBinContent(44,7);
+   M_H_W_jj->SetBinContent(45,3);
+   M_H_W_jj->SetBinContent(46,4);
+   M_H_W_jj->SetBinContent(47,4);
+   M_H_W_jj->SetBinContent(48,4);
+   M_H_W_jj->SetBinContent(49,3);
+   M_H_W_jj->SetBinContent(50,4);
+   M_H_W_jj->SetBinContent(51,56);
+   M_H_W_jj->SetEntries(708);
+   
+   TPaveStats *ptstats = new TPaveStats(0.78,0.775,0.98,0.935,"brNDC");
+   ptstats->SetName("stats");
+   ptstats->SetBorderSize(1);
+   ptstats->SetFillColor(0);
+   ptstats->SetTextAlign(12);
+   ptstats->SetTextFont(42);
+   TText *text = ptstats->AddText("M_H_W_jj");
+   text->SetTextSize(0.0368);
+   text = ptstats->AddText("Entries = 708    ");
+   text = ptstats->AddText("Mean  =  71.83");
+   text = ptstats->AddText("RMS   =  42.67");
+   ptstats->SetOptStat(1111);
+   ptstats->SetOptFit(0);
+   ptstats->Draw();
+   M_H_W_jj->GetListOfFunctions()->Add(ptstats);
+   ptstats->SetParent(M_H_W_jj);
+
+   Int_t ci;   // for color index setting
+   ci = TColor::GetColor("#000099");
+   M_H_W_jj->SetLineColor(ci);
+   M_H_W_jj->GetXaxis()->SetLabelFont(42);
+   M_H_W_jj->GetXaxis()->SetLabelSize(0.035);
+   M_H_W_jj->GetXaxis()->SetTitleSize(0.035);
+   M_H_W_jj->GetXaxis()->SetTitleFont(42);
+   M_H_W_jj->GetYaxis()->SetLabelFont(42);
+   M_H_W_jj->GetYaxis()->SetLabelSize(0.035);
+   M_H_W_jj->GetYaxis()->SetTitleSize(0.035);
+   M_H_W_jj->GetYaxis()->SetTitleFont(42);
+   M_H_W_jj->GetZaxis()->SetLabelFont(42);
+   M_H_W_jj->GetZaxis()->SetLabelSize(0.035);
+   M_H_W_jj->GetZaxis()->SetTitleSize(0.035);
+   M_H_W_jj->GetZaxis()->SetTitleFont(42);
+   M_H_W_jj->Draw("");
+   
+   TPaveText *pt = new TPaveText(0.3728125,0.9358257,0.6271875,0.995,"blNDC");
+   pt->SetName("title");
+   pt->SetBorderSize(0);
+   pt->SetFillColor(0);
+   pt->SetFillStyle(0);
+   pt->SetTextFont(42);
+   text = pt->AddText("M_H_W_jj");
+   pt->Draw();
+   c1->Modified();
+   ->cd();
+   ->SetSelected();
+}

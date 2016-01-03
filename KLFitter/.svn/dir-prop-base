@@ -1,0 +1,18 @@
+K 10
+svn:ignore
+V 99
+KLFitter
+KLFitterExtras
+README.KLFitter
+README.KLFitterExtras
+src
+*.so
+*.dylib
+i686-slc5-gcc43-opt
+
+K 13
+svn:mergeinfo
+V 159
+/Institutes/Goettingen/KLFitter/branches/KLFitter-00-04-02-branch:113932-114713
+/Institutes/Goettingen/KLFitter/branches/KLFitter-00-04-26-branch:200376-200562
+END

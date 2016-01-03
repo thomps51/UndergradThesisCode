@@ -1,0 +1,10 @@
+K 10
+svn:ignore
+V 51
+setup.sh
+setup.csh
+cleanup.sh
+cleanup.csh
+Makefile
+
+END
